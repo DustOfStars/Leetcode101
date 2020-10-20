@@ -17,7 +17,7 @@ int candy(vector<int>& ratings)
 		return size;  //0个或者1个人, 只需要0或1糖果
 	}
 	
-	vector<int> num(size, 1);
+	vector<int> num(size, 1); //size行1列?
 	
 	for (int i=1; i<size; ++i)
 	{
